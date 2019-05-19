@@ -13,9 +13,5 @@ int main ()
 
 		printf("Il numero %d è maggiore del numero %d\n", numero1, numero2);
 
-	else
-{
-		printf("Non so farla solamente con un 'if', questo messaggio è perché non voglio creare la issue\n");
-}
 	return 0;
 }
