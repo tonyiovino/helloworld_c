@@ -2,16 +2,20 @@
 
 int main ()
 {
-	int numero1, numero2;
+	int a, b;
+	int c;
 
-	printf("Inserisca qui il primo numero: ");
-	scanf("%d", &numero1);
-	printf("Inserisca qui il secondo numero: ");
-	scanf("%d", &numero2);
+	printf("Inserisca qui il primo numero: \n");
+	scanf("%d", &a);
+	printf("Inserisca qui il secondo numero: \n");
+	scanf("%d", &b);
 
-	if (numero1 > numero2)
+	c = a;
 
-		printf("Il numero %d è maggiore del numero %d\n", numero1, numero2);
+	if (a < b) c = b;
+{
+		printf("Il numero più grande è %d.\n", c);
+}
 
 	return 0;
 }
