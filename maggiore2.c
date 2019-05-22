@@ -13,7 +13,7 @@ int main ()
 	c = a;
 
 	if (a < b) c = b;
-		printf("Il numero più grande è %d.\n", c);
+	printf("Il numero più grande è %d.\n", c);
 
 	return 0;
 }
