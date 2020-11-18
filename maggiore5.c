@@ -17,7 +17,7 @@ int main()
 	printf("Inserisci qui l'ultimo numero e poi ti dirò il più grande: ");
 	scanf("%d", &e);
 
-	f = a
+	f = a;
 
 	if (b > f) f = b;
 
